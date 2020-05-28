@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: height;
+
+
+  background: rgba(243,226,199,1);
+  background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 36%, rgba(189,152,94,1) 55%, rgba(182,141,76,1) 92%, rgba(233,212,179,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(36%, rgba(193,158,103,1)), color-stop(55%, rgba(189,152,94,1)), color-stop(92%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
+  background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 36%, rgba(189,152,94,1) 55%, rgba(182,141,76,1) 92%, rgba(233,212,179,1) 100%);
+  background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 36%, rgba(189,152,94,1) 55%, rgba(182,141,76,1) 92%, rgba(233,212,179,1) 100%);
+  background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 36%, rgba(189,152,94,1) 55%, rgba(182,141,76,1) 92%, rgba(233,212,179,1) 100%);
+  background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 36%, rgba(189,152,94,1) 55%, rgba(182,141,76,1) 92%, rgba(233,212,179,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+}
+
+button {
+  border: 2px solid #FFA500;
+  border-bottom: 4px solid #FFA500;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #BDB76B;
+  color: #fff;
+  outline: none!important;
+}
+
+button:hover {
+  border-bottom: 2px solid #103a65;
+  position: relative;
+  top: 2px;
+}
+
+button:active {
+  border-bottom: 2px solid transparent;
+  border-color: transparent;
+  position: relative;
+  top: 2px;
+}
