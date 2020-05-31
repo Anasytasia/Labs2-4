@@ -2,7 +2,6 @@ describe('The tests', () => {
   it('successfully loads', () => {
     cy.visit('/')
   })
-
   it('Api', () => {
       cy.contains('Получить первую картинку').click()
       cy.then((response) => {
@@ -10,7 +9,6 @@ describe('The tests', () => {
           cy.get('img')
        })
   })
-
   it('Click Button', () => {
   cy.contains('Получить вторую картинку').click()
   })
