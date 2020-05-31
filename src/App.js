@@ -14,10 +14,6 @@ class App extends React.Component {
       const api_url = await fetch("http://aws.random.cat/meow")
       const data = await api_url.json();
       console.log(data);
-
-      this.setState({
-       photo1:  data.file
-    });
 }
 
 getting_photo2 = async(e) => {
