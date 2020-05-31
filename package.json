@@ -21,10 +21,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:web": "webpack --mode=production",
-    "test": "react-scripts test",
-    "test:open": "cypress open",
+    "test": "npm run cy:run --spec 'cypress/integration/*.spec.js'",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/*.{js,jsx}"
+    "cy:run": "cypress run",
+    "cypress": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
